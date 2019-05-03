@@ -1,0 +1,16 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+ a logical way to describe each area of a page to clearly alter in css. 
+
+Name two big differences between display: block; and display: inline;.
+inline - nested elements small pieces of code that can be nested. content flows around them height and width have o effect
+
+block - good for working with layout of pages drawback of using the box model to set its contents to the parent allows inline and block elements to be used in child code
+
+What are the 4 areas of the box model?
+content, padding, border, margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+align items in flex display works on the main axis  and would move content to the center of the vertical axis
+
+Explain why git is valuable to a team of developers.
+Git is valuable for developers because it allows them to communicate directly with the machine saving time and expediting code in their determined editor
