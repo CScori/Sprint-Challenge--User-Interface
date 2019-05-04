@@ -177,3 +177,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.about-top {
+  margin: 25px 0px;
+}
+
+.main-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-about .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.main-about1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-about1 .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
