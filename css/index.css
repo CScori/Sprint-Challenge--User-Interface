@@ -77,18 +77,17 @@ p {
     margin: 25px 0px;
     display: flex;
     justify-content: space-evenly;
-
 }
 .header img{
     height: 50px;
     width: 200px;
 }
 .header .nav{
-    width: 60%;
+    width: 65%;
     height: 50px;
     margin-top: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .header .nav a{
   text-decoration: none;
@@ -198,8 +197,7 @@ footer nav a {
     margin: 0 auto;
     margin-left: 25px;
 }
-.title-img img{
-    margin-left: 50px;
+.about-title img{
     width: 95%;
     border-bottom: 25px;
 }
@@ -209,6 +207,43 @@ footer nav a {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: black 1px dashed;
+}
+.about-info button{
+    color: black;
+    background: white;
+    border: 1px black solid;
+    width: 125px;
+    height: 25px;
+    margin: 10px 0;
+}
+.about-info p{
+    width: 350px;
+}
+.about-info h2{
+    margin: 10px 0;
+}
+.about-info img{
+    width: 345px;
+}
+.strategy{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.work{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.places{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.colab {
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
 }
