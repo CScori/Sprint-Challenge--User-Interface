@@ -69,8 +69,32 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-left: 25px;
 }
+.header{
+    width: 95%;
+    height: 75px;
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.header img{
+    height: 50px;
+    width: 200px;
+}
+.header .nav{
+    width: 60%;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
