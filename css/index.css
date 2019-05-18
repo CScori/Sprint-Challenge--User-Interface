@@ -95,6 +95,11 @@ p {
   color: black;
   font-family: 'Times New Roman', Times, serif;
 }
+.top-content img{
+    width: 95%;
+    height: 150px;
+    padding-bottom: 25px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
