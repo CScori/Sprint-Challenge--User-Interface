@@ -76,14 +76,14 @@ p {
     height: 75px;
     margin: 25px 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .header img{
     height: 50px;
     width: 200px;
 }
 .header .nav{
-    width: 65%;
+    width: 70%;
     height: 50px;
     margin-top: 25px;
     display: flex;
@@ -246,4 +246,7 @@ footer nav a {
     margin: 25px 0px;
     width: 45%;
     border-bottom: 1px dashed black;
+}
+.about-bottom{
+    margin: 25px 0;
 }
