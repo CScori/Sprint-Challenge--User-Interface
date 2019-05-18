@@ -250,3 +250,32 @@ footer nav a {
 .about-bottom{
     margin: 25px 0;
 }
+/* blog styling*/
+.container-blog{
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+.blog-title{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-title h1{
+    font-size: 50px;
+    width: 100px;
+}
+.blog-display{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: dashed black 1px;
+}
+.blog-display p{
+    width: 350px;
+}
+.blog-display h2{
+    width: 75%;
+}
+
