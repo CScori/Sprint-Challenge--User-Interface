@@ -278,4 +278,16 @@ footer nav a {
 .blog-display h2{
     width: 75%;
 }
+.blog-bottom {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+
+}
 
