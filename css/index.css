@@ -268,26 +268,30 @@ footer nav a {
 .blog-display{
     width: 95%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
-    border: dashed black 1px;
+    border: double black 1px;
 }
 .blog-display p{
-    width: 350px;
+    width: 80%;
+    border: dashed black 1px;
+    padding: 10px;
 }
 .blog-display h2{
     width: 75%;
+    padding: 5px 25px;
 }
 .blog-bottom {
     margin: 25px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 ul{
     font-size: 20px;
     color: red;
     display: flex;
     justify-content: space-around;
-
 }
-
+li{
+    padding: 0 20px;
+}
