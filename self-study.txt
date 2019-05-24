@@ -1,0 +1,5 @@
+1. Html semantics uses specific naming to easily describe what part of the page has content added and styled
+2. block goes horizontal with no prefernce to height or width whereas inline block goes horizxonatal but allows for height and width to be followed
+3. content/padding/margin/border
+4. align-items center would center the content across the vertical access
+5. git allows an easy interface between writing code and editing in the terminal and allows export like git hub to easily work in conjunction from remote to livegit

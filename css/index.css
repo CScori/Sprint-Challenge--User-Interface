@@ -69,8 +69,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-left: 25px;
 }
-
+.header{
+    width: 95%;
+    height: 75px;
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    height: 50px;
+    width: 200px;
+}
+.header .nav{
+    width: 70%;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.header .nav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top-content img{
+    width: 95%;
+    height: 150px;
+    padding-bottom: 25px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,29 +106,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,26 +134,51 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,8 +187,111 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about page styling*/
+.container-about{
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+.about-title img{
+    width: 95%;
+    border-bottom: 25px;
+}
+.title{
+    margin: 25px 0px;}
+.about-info{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: black 1px dashed;
+}
+.about-info button{
+    color: black;
+    background: white;
+    border: 1px black solid;
+    width: 125px;
+    height: 25px;
+    margin: 10px 0;
+}
+.about-info p{
+    width: 350px;
+}
+.about-info h2{
+    margin: 10px 0;
+}
+.about-info img{
+    width: 345px;
+}
+.strategy{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.work{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.places{
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.colab {
+    margin: 25px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.about-bottom{
+    margin: 25px 0;
+}
+/* blog styling*/
+.container-blog{
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+.blog-title{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-title h1{
+    font-size: 50px;
+    width: 100px;
+}
+.blog-display{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: double black 1px;
+}
+.blog-display p{
+    width: 80%;
+    border: dashed black 1px;
+    padding: 10px;
+}
+.blog-display h2{
+    width: 75%;
+    padding: 5px 25px;
+}
+.blog-bottom {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 0 20px;
 }
